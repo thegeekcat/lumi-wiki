@@ -1,0 +1,14 @@
+{
+  "name": "lumi-wiki",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "preview": "python3 -m http.server 4173 -d dist"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
